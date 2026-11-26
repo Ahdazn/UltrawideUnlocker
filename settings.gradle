@@ -10,8 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://api.xposed.info/' }
     }
 }
 rootProject.name = "UltrawideUnlocker"
 include ':app'
+include ':xposed-stub'
